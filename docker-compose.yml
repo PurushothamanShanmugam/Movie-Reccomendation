@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+
+  movie-recommender:
+
+    build: .
+
+    container_name: movie_recommendation_system
+
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs
+
+    environment:
+      - PYTHONUNBUFFERED=1
+
+    restart: unless-stopped

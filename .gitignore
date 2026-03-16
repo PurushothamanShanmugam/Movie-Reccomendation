@@ -1,0 +1,106 @@
+# -----------------------------
+# Python cache
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+*.pickle
+
+# -----------------------------
+# Jupyter Notebook
+# -----------------------------
+.ipynb_checkpoints
+
+# -----------------------------
+# Conda / Virtual environments
+# -----------------------------
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+conda_envs/
+*.conda
+
+# your environment path
+D:\conda_envs\
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------
+# IDE settings
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+# Logs
+# -----------------------------
+logs/
+*.log
+
+# -----------------------------
+# Large datasets
+# -----------------------------
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.txt
+
+# -----------------------------
+# Processed data
+# -----------------------------
+data/processed/
+
+# -----------------------------
+# Model artifacts
+# -----------------------------
+outputs/models/
+*.pkl
+*.joblib
+*.keras
+*.h5
+*.npz
+*.npy
+
+# -----------------------------
+# Generated outputs
+# -----------------------------
+outputs/figures/
+outputs/metrics/
+outputs/recommendations/
+
+# -----------------------------
+# Temporary files
+# -----------------------------
+*.tmp
+*.temp
+
+# -----------------------------
+# System specific
+# -----------------------------
+*.bak
+*.cache
+
+# -----------------------------
+# Distribution
+# -----------------------------
+build/
+dist/
+*.egg-info/
+
+# -----------------------------
+# Tensorflow / ML temp
+# -----------------------------
+checkpoint
+*.ckpt
+events.out.tfevents.*
